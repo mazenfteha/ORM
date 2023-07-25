@@ -21,6 +21,6 @@ app.post('/users', async(req,res)=> {
 
 app.listen({ port: 5000 },async ()=> {
     console.log('Server running on port 5000')
-    await sequelize.sync({ force: true })
-    console.log('Database synced!')
+    await sequelize.authenticate()
+    console.log('Database Connected!')
 })

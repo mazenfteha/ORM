@@ -2,21 +2,21 @@
   "development": {
     "username": "postgres",
     "password": "admin",
-    "database": "sequelize_orm",
+    "database": "orm",
     "host": "localhost",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
     "password": "admin",
-    "database": "sequelize_orm",
+    "database": "orm",
     "host": "localhost",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
     "password": "admin",
-    "database": "sequelize_orm",
+    "database": "orm",
     "host": "localhost",
     "dialect": "postgres"
   }
